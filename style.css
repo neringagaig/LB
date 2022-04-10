@@ -102,6 +102,10 @@ a, .search {
     padding: 12px;
     margin: 20px;
 }
+.first:hover, .second:hover, .third:hover {
+    box-shadow: 5px 10px 50px rgb(16, 15, 15);
+}
+
 .percent {
     font-size: 50px;
     border-bottom: 2px solid green;
@@ -110,6 +114,9 @@ a, .search {
 .intro {
     font-weight: 400;
     margin-bottom: 4px;
+}
+.intro:hover {
+    color: yellow;
 }
 .date-from {
     margin-top: 0;
@@ -136,6 +143,9 @@ a, .search {
     border-left: 1px solid #eee;
     padding-left: 46px;
 }
+.topic li:hover {
+    color: rgb(14, 79, 53);
+}
 un {
     list-style-type: none;
 }
@@ -153,6 +163,9 @@ un li::before {
     flex-wrap: wrap;
     padding: 20px;
     font-size: 18px;
+}
+.footer-nav div:hover {
+    text-decoration: underline;
 }
 .footer-nav div {
     padding-right: 38px;
@@ -179,6 +192,7 @@ un li::before {
     padding: 20px;
     width: 45%;
     text-align: center;
+    align-items: center;
     font-weight: 400;
 }
 .info-line span {
@@ -186,10 +200,13 @@ un li::before {
     font-weight: 500;
     padding: 6px;
 }
+.info-line:hover {
+    background-color: rgb(0, 128, 77);
+}
 .site-tree {
     background-color: rgb(36, 36, 36);
     text-decoration: underline;
-    font-weight: 400;
+    font-weight: 300;
     padding: 20px 36px;
     display: flex;
     justify-content: space-between;
@@ -199,4 +216,9 @@ un li::before {
 }
 .site-tree a {
     padding-right: 20px;
+    color: rgb(116, 116, 116);
+
+}
+.site-tree a:hover {
+    color: white;
 }
